@@ -34,5 +34,7 @@ img.addEventListener("click", () => quebrada());
 lampadaOn.addEventListener("click", () => clickOn());
 lampadaOff.addEventListener("click", () => clickOff());
 resetar.addEventListener("click", () => resetarLampada());
+
+// evento de passar o mouse por cima apenas para aprender
 img.addEventListener("mouseover", () => clickOn());
 img.addEventListener("mouseout", () => resetarLampada());
